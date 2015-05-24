@@ -1,5 +1,11 @@
-## Put comments here that give an overall description of what your
-## functions do
+## By combining the following functions it is possible to compute and cache
+## the inverse of an inversible matrix.
+##
+## Example:
+##
+## m=rbind(c(1, -1/4), c(-1/4, 1))
+## x<-makeCacheMatrix(m)
+## cacheSolve(x)
 
 ## makeCacheMatrix
 ## This function creates a special "matrix" object that can cache its inverse.
